@@ -1,6 +1,5 @@
 package tests;
 
-import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase {
@@ -9,12 +8,10 @@ public class LoginTests extends TestBase {
     public void loginSuccess() {
 
         app.getUserHelper().openLoginForm();
-        app.getUserHelper().fillLoginForm(String email, Srting password);
-        type(By.id("email"), "lenastep@gmail.com");
-        type(By.id("Password"), "12345nnnN");
-        click(By.cssSelector("[type='submit']"));
+        app.getUserHelper().fillLoginForm ("lenastep@gmail.com", "12345nnnN");
+        app.getUserHelper().submitForm();
 
-
+        //Assert
     }
 
 

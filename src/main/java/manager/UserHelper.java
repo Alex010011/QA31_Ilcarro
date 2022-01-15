@@ -13,5 +13,35 @@ public class UserHelper extends HelperBase{
         click(By.xpath("//a[text()=' Log in ']"));
     }
 
-    public void fillPogonForm();
+    public void fillLoginForm(String email, String password){
+
+        type(By.id("email"), email);
+        type(By.id("password"), password);
+
+    }
+
+    public void submitForm() {
+
+      click(By.cssSelector("[type='submit']"));
+
+    }
+
+    public void openRegistrationForm() {
+
+        click(By.xpath("//a[text()=' Sign up ']"));
+
+    }
+
+    public void fillRegistrationForm(String name, String lastname, String email, String password) {
+
+        type(By.id("name"), name);
+        type(By.id("lastName"), lastname);
+        type(By.id("email"), email);
+        type(By.id("password"), password);
+    }
+
+    public void checkPolicy() {
+
+        click(By.cssSelector("label[for='terms-of-use']"));
+    }
 }

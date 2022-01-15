@@ -19,7 +19,7 @@ public class ApplicationManager {
 
     public void stop(){
 
-        wd.quit();
+        wd.quit();//close all tabs (wd.close() - close only one tab)
 
     }
 
