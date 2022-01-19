@@ -1,5 +1,6 @@
 package tests;
 
+import models.User;
 import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase {
@@ -14,7 +15,16 @@ public class LoginTests extends TestBase {
         //Assert
     }
 
+    @Test
+    public void loginSuccessModel() {
 
+        User user = new User().witnEmail("lenastep@gmail.com").withPassword("12345nnnN");
+        app.getUserHelper().openLoginForm();
+        app.getUserHelper().fillLoginForm(user);
+        app.getUserHelper().submitForm();
+
+        //Assert
+    }
 }
 
 
