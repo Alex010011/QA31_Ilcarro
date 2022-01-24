@@ -2,8 +2,10 @@ package manager;
 
 import models.User;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -64,11 +66,26 @@ public class UserHelper extends HelperBase{
 
     public void checkPolicy() {
 
-        //if(wd.findElement(By.id("terms-of-use")).isSelected()) {
+        if(!wd.findElement(By.id("terms-of-use")).isSelected()) {
             click(By.cssSelector("label[for='terms-of-use']"));
-       // }
+       }
     }
 
+    public void checkPolicyByXY(){
+
+        WebElement label = wd.findElement(By.xpath("//label[@for='terms-of-use'"));
+        Rectangle rect = label.getRect();
+
+        int offSetX = rect.getWidth() / 2;
+        int offSetY = rect.getHeight() / 2;
+
+        Actions actions = new Actions(wd);
+        actions.moveToElement(label).release().build().perform();
+
+        System.out.println(offSetX + " " + offSetY);
+        actions.moveByOffset(-offSetX, -offSetY).click().release().build().perform();
+
+    }
     public boolean isRegistrationSuccess() {
 
         WebDriverWait wait = new WebDriverWait(wd,10);
@@ -77,4 +94,31 @@ public class UserHelper extends HelperBase{
         String text = message.getText();
         return text.equals("You are logged in success");
     }
+
+    public boolean isLogoutPresent() {
+        pause(5000);
+        return isElementPresent(By.xpath("//*[text()=' Logout ']"));
+    }
+
+    public void logout() {
+        click(By.xpath("//*[text()=' Logout ']"));
+    }
+
+    public void clickOkButton() {
+        new WebDriverWait(wd, 10).until(ExpectedConditions.presenceOfElementLocated
+                (By.xpath("//div[@class='dialog-container']")));
+        click(By.xpath("//*[text()='Ok']"));
+    }
+
+    public void login(User user) {
+        openLoginForm();
+        fillLoginForm(user);
+        submitForm();
+        pause(5000);
+        clickOkButton();
+
+    }
 }
+
+
+
