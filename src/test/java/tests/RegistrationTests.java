@@ -23,8 +23,8 @@ public class RegistrationTests extends TestBase{
       System.out.println(index);
       app.getUserHelper().openRegistrationForm();
       app.getUserHelper().fillRegistrationForm("Misterr","Tvisterr","tvistermister"+index+"@gmail.com","Jj12345$");
-      app.getUserHelper().checkPolicy();
-      //app.getUserHelper().checkPolicyByXY();
+      //app.getUserHelper().checkPolicy();
+      app.getUserHelper().checkPolicyByXY();
       app.getUserHelper().submitForm();
 
       app.getUserHelper().pause(5000);

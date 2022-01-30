@@ -23,7 +23,8 @@ pause(5000);
     }
 
     public void fillCarForm(Car car) {
-        typeLocatioan(car.getAddress());
+        //typeLocatioan(car.getAddress());
+        typeLocationXY(car.getAddress());
         type(By.id("make"),car.getMake());
         type(By.id("model"),car.getModel());
         type(By.id("year"),car.getYear());
@@ -51,28 +52,22 @@ pause(5000);
         //new Select(wd.findElement(locator)).deselectByVisibleText("");
     }
 
-    private void typeLocatioan(String address) {
+
+
+    private void typeLocationXY(String address){
 
         type(By.id("pickUpPlace"),address);
-        click(By.cssSelector(".pac-item"));
-        pause(500);
+        WebElement city = wd.findElement(By.id("pickUpPlace"));
+        Rectangle rect = city.getRect();
+
+        Actions actions = new Actions(wd);
+        actions.moveToElement(city).release().build().perform();
+
+        int y = rect.getHeight();
+        actions.moveByOffset(0,y).click().release().build().perform();
+
 
     }
-
-//    private void typeLocationXY(String address){
-//
-//        type(By.id("pickUpPlace"),address);
-//        WebElement city = wd.findElement(By.id("pickUpPlace"));
-//        Rectangle rect = city.getRect();
-//
-//        Actions actions = new Actions(wd);
-//        actions.moveToElement(city).
-//
-//        actions.moveByOffset(0,).click().release().build().perform();
-//
-//
-//
-//    }
 
     public void attachPhoto(String link) {
         wd.findElement(By.id("photos")).sendKeys(link);

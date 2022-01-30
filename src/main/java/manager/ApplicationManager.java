@@ -10,6 +10,7 @@ public class ApplicationManager {
     WebDriver wd;
     UserHelper userHelper;
     CarHelper carHelper;
+    HelperSearch search;
 
     public void init(){
 
@@ -20,6 +21,7 @@ public class ApplicationManager {
 
         userHelper = new UserHelper(wd);
         carHelper = new CarHelper(wd);
+        search = new HelperSearch(wd);
     }
 
     public void stop(){
@@ -34,5 +36,9 @@ public class ApplicationManager {
 
     public CarHelper getCarHelper() {
         return carHelper;
+    }
+
+    public HelperSearch search(){
+        return search;
     }
 }

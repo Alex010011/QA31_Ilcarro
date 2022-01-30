@@ -73,7 +73,7 @@ public class UserHelper extends HelperBase{
 
     public void checkPolicyByXY(){
 
-        WebElement label = wd.findElement(By.xpath("//label[@for='terms-of-use'"));
+        WebElement label = wd.findElement(By.cssSelector("label[for='terms-of-use']"));
         Rectangle rect = label.getRect();
 
         int offSetX = rect.getWidth() / 2;
