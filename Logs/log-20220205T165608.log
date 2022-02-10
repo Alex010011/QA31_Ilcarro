@@ -1,0 +1,85 @@
+16:56:10.533 INFO  manager.ApplicationManager - All tests start in 'Chrome' browser
+16:56:29.587 INFO  tests.TestBase - Name of test --->addNewCarSuccess
+16:56:34.601 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()=' Logout ']
+16:56:39.658 INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()=' Logout ']--->was found
+16:56:39.661 INFO  manager.MyListener - Start find element --->By.xpath: //a[text()=' Log in ']
+16:56:39.681 INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()=' Log in ']--->was found
+16:56:39.767 INFO  manager.MyListener - Start find element --->By.id: email
+16:56:39.783 INFO  manager.MyListener - The element with locator --->By.id: email--->was found
+16:56:39.909 INFO  manager.MyListener - Start find element --->By.id: password
+16:56:39.919 INFO  manager.MyListener - The element with locator --->By.id: password--->was found
+16:56:40.007 INFO  manager.MyListener - Start find element --->By.cssSelector: [type='submit']
+16:56:40.027 INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']--->was found
+16:56:45.067 INFO  manager.MyListener - Start find element --->By.xpath: //div[@class='dialog-container']
+16:56:45.093 INFO  manager.MyListener - The element with locator --->By.xpath: //div[@class='dialog-container']--->was found
+16:56:45.093 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Ok']
+16:56:45.121 INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()='Ok']--->was found
+16:56:45.175 INFO  tests.TestBase - Car was added for userUser{name='null', lastName='null', email='tvistermister220@gmail.com', password='Jj12345$'}
+16:56:45.228 INFO  tests.TestBase - Car was addedCar(address=Tel Aviv, Israel, make=BMW, model=M5, year=2020, engine=2.5, fuel=Petrol, gear=MT, wD=AWD, doors=5, seats=4, clasS=C, fuelConsumption=6.5, carRegNumber=102-33-3405, price=65, distanceIncluded=500, features=type of, about=Very good car)
+16:56:50.233 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/let-car-work']
+16:56:50.267 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/let-car-work']--->was found
+16:56:50.343 INFO  manager.MyListener - Start find element --->By.id: pickUpPlace
+16:56:50.365 INFO  manager.MyListener - The element with locator --->By.id: pickUpPlace--->was found
+16:56:50.469 INFO  manager.MyListener - Start find element --->By.id: pickUpPlace
+16:56:50.487 INFO  manager.MyListener - The element with locator --->By.id: pickUpPlace--->was found
+16:56:50.875 INFO  manager.MyListener - Start find element --->By.id: make
+16:56:50.890 INFO  manager.MyListener - The element with locator --->By.id: make--->was found
+16:56:50.997 INFO  manager.MyListener - Start find element --->By.id: model
+16:56:51.014 INFO  manager.MyListener - The element with locator --->By.id: model--->was found
+16:56:51.119 INFO  manager.MyListener - Start find element --->By.id: year
+16:56:51.137 INFO  manager.MyListener - The element with locator --->By.id: year--->was found
+16:56:51.233 INFO  manager.MyListener - Start find element --->By.id: engine
+16:56:51.249 INFO  manager.MyListener - The element with locator --->By.id: engine--->was found
+16:56:51.320 INFO  manager.MyListener - Start find element --->By.id: fuel
+16:56:51.343 INFO  manager.MyListener - The element with locator --->By.id: fuel--->was found
+16:56:51.386 INFO  manager.MyListener - Start find element --->By.xpath: .//option[@value = "Petrol"]
+16:56:51.407 INFO  manager.MyListener - The element with locator --->By.xpath: .//option[@value = "Petrol"]--->was found
+16:56:51.442 INFO  manager.MyListener - Start find element --->By.id: gear
+16:56:51.465 INFO  manager.MyListener - The element with locator --->By.id: gear--->was found
+16:56:51.494 INFO  manager.MyListener - Start find element --->By.xpath: .//option[@value = "MT"]
+16:56:51.514 INFO  manager.MyListener - The element with locator --->By.xpath: .//option[@value = "MT"]--->was found
+16:56:51.554 INFO  manager.MyListener - Start find element --->By.id: wheelsDrive
+16:56:51.577 INFO  manager.MyListener - The element with locator --->By.id: wheelsDrive--->was found
+16:56:51.603 INFO  manager.MyListener - Start find element --->By.xpath: .//option[@value = "AWD"]
+16:56:51.621 INFO  manager.MyListener - The element with locator --->By.xpath: .//option[@value = "AWD"]--->was found
+16:56:51.660 INFO  manager.MyListener - Start find element --->By.id: doors
+16:56:51.683 INFO  manager.MyListener - The element with locator --->By.id: doors--->was found
+16:56:51.803 INFO  manager.MyListener - Start find element --->By.id: seats
+16:56:51.824 INFO  manager.MyListener - The element with locator --->By.id: seats--->was found
+16:56:51.915 INFO  manager.MyListener - Start find element --->By.id: class
+16:56:51.930 INFO  manager.MyListener - The element with locator --->By.id: class--->was found
+16:56:52.037 INFO  manager.MyListener - Start find element --->By.id: fuelConsumption
+16:56:52.056 INFO  manager.MyListener - The element with locator --->By.id: fuelConsumption--->was found
+16:56:52.166 INFO  manager.MyListener - Start find element --->By.id: serialNumber
+16:56:52.179 INFO  manager.MyListener - The element with locator --->By.id: serialNumber--->was found
+16:56:52.288 INFO  manager.MyListener - Start find element --->By.id: price
+16:56:52.301 INFO  manager.MyListener - The element with locator --->By.id: price--->was found
+16:56:52.416 INFO  manager.MyListener - Start find element --->By.id: distance
+16:56:52.428 INFO  manager.MyListener - The element with locator --->By.id: distance--->was found
+16:56:52.548 INFO  manager.MyListener - Start find element --->By.cssSelector: .feature-input
+16:56:52.567 INFO  manager.MyListener - The element with locator --->By.cssSelector: .feature-input--->was found
+16:56:52.637 INFO  manager.MyListener - Start find element --->By.id: about
+16:56:52.647 INFO  manager.MyListener - The element with locator --->By.id: about--->was found
+16:56:52.740 INFO  manager.MyListener - Start find element --->By.id: photos
+16:56:52.754 INFO  manager.MyListener - The element with locator --->By.id: photos--->was found
+16:56:52.788 INFO  manager.MyListener - Start find element --->By.xpath: //button[text()='Submit']
+16:56:52.802 INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Submit']--->was found
+16:57:23.334 INFO  manager.MyListener - Start find element --->By.xpath: //button[text()='Search cars']
+16:57:28.396 INFO  manager.MyListener - We have a throwable --->no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2cffa71fb8dc508a60242afcde97aac9
+*** Element info: {Using=xpath, value=//button[text()='Search cars']}
+16:57:28.398 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2cffa71fb8dc508a60242afcde97aac9
+*** Element info: {Using=xpath, value=//button[text()='Search cars']}

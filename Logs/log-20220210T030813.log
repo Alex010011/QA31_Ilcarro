@@ -1,0 +1,18 @@
+03:08:15.613 INFO  manager.ApplicationManager - All tests start in 'Chrome' browser
+03:08:17.103 INFO  tests.TestBase - Name of test --->searchPeriodCurrentFromTodayForWeek
+03:08:17.110 INFO  manager.MyListener - Start find element --->By.id: city
+03:08:17.178 INFO  manager.MyListener - The element with locator --->By.id: city--->was found
+03:08:17.386 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+03:08:17.736 INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item--->was found
+03:08:18.299 INFO  manager.MyListener - Start find element --->By.id: dates
+03:08:18.358 INFO  manager.MyListener - The element with locator --->By.id: dates--->was found
+03:08:18.542 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 10 ']
+03:08:18.574 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 10 ']--->was found
+03:08:19.651 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 17 ']
+03:08:19.677 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 17 ']--->was found
+03:08:24.743 INFO  manager.MyListener - Start find element --->By.cssSelector: [type='submit']
+03:08:24.781 INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']--->was found
+03:08:24.909 INFO  manager.MyListener - Start find element --->By.cssSelector: .search-results
+03:08:24.938 INFO  manager.MyListener - The element with locator --->By.cssSelector: .search-results--->was found
+03:08:29.956 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/search']
+03:08:29.993 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/search']--->was found

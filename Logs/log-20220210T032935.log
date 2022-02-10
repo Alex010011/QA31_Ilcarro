@@ -1,0 +1,80 @@
+03:29:37.969 INFO  manager.ApplicationManager - All tests start in 'Chrome' browser
+03:29:40.291 INFO  tests.TestBase - Name of test --->searchPeriodAnyData
+03:29:40.297 INFO  manager.MyListener - Start find element --->By.id: city
+03:29:40.328 INFO  manager.MyListener - The element with locator --->By.id: city--->was found
+03:29:40.521 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+03:29:40.853 INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item--->was found
+03:29:41.433 INFO  manager.MyListener - Start find element --->By.id: dates
+03:29:41.484 INFO  manager.MyListener - The element with locator --->By.id: dates--->was found
+03:29:41.646 INFO  manager.MyListener - Start find element --->By.xpath: //*[@aria-label='Next month']
+03:29:41.677 INFO  manager.MyListener - The element with locator --->By.xpath: //*[@aria-label='Next month']--->was found
+03:29:41.756 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 30 ']
+03:29:41.781 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 30 ']--->was found
+03:29:41.835 INFO  manager.MyListener - Start find element --->By.xpath: //*[@aria-label='Next month']
+03:29:41.855 INFO  manager.MyListener - The element with locator --->By.xpath: //*[@aria-label='Next month']--->was found
+03:29:41.906 INFO  manager.MyListener - Start find element --->By.xpath: //*[@aria-label='Next month']
+03:29:41.933 INFO  manager.MyListener - The element with locator --->By.xpath: //*[@aria-label='Next month']--->was found
+03:29:41.976 INFO  manager.MyListener - Start find element --->By.xpath: //*[@aria-label='Next month']
+03:29:41.992 INFO  manager.MyListener - The element with locator --->By.xpath: //*[@aria-label='Next month']--->was found
+03:29:42.037 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 25 ']
+03:29:42.061 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 25 ']--->was found
+03:29:49.144 INFO  manager.MyListener - Start find element --->By.cssSelector: [type='submit']
+03:29:49.184 INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']--->was found
+03:29:49.315 INFO  manager.MyListener - Start find element --->By.cssSelector: .search-results
+03:29:49.347 INFO  manager.MyListener - The element with locator --->By.cssSelector: .search-results--->was found
+03:29:54.359 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/search']
+03:29:54.396 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/search']--->was found
+03:29:54.500 INFO  tests.TestBase - Name of test --->searchPeriodCurrentFromTodayForWeek
+03:29:54.502 INFO  manager.MyListener - Start find element --->By.id: city
+03:29:54.541 INFO  manager.MyListener - The element with locator --->By.id: city--->was found
+03:29:54.841 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+03:29:54.882 INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item--->was found
+03:29:54.983 INFO  manager.MyListener - We have a throwable --->stale element reference: element is not attached to the page document
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53595}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf676f22ed192bdd118511c2c33c8e24
+03:29:54.985 INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53595}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf676f22ed192bdd118511c2c33c8e24
+03:29:55.000 INFO  manager.MyListener - This is link of your screen -->src/test/screenshots/screen1794.png
+03:30:01.184 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/search']
+03:30:01.215 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/search']--->was found
+03:30:01.307 INFO  tests.TestBase - Name of test --->searchPeriodCurrentMonth
+03:30:01.309 INFO  manager.MyListener - Start find element --->By.id: city
+03:30:01.340 INFO  manager.MyListener - The element with locator --->By.id: city--->was found
+03:30:01.586 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+03:30:01.603 INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item--->was found
+03:30:02.196 INFO  manager.MyListener - Start find element --->By.id: dates
+03:30:02.235 INFO  manager.MyListener - The element with locator --->By.id: dates--->was found
+03:30:02.375 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 15 ']
+03:30:02.406 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 15 ']--->was found
+03:30:02.502 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 28 ']
+03:30:02.530 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 28 ']--->was found
+03:30:07.632 INFO  manager.MyListener - Start find element --->By.cssSelector: [type='submit']
+03:30:07.667 INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']--->was found
+03:30:07.799 INFO  manager.MyListener - Start find element --->By.cssSelector: .search-results
+03:30:07.832 INFO  manager.MyListener - The element with locator --->By.cssSelector: .search-results--->was found
+03:30:12.838 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/search']
+03:30:13.016 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/search']--->was found
+03:30:13.099 INFO  tests.TestBase - Name of test --->typePeriodInPast
+03:30:13.100 INFO  manager.MyListener - Start find element --->By.id: city
+03:30:13.131 INFO  manager.MyListener - The element with locator --->By.id: city--->was found
+03:30:13.415 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+03:30:13.442 INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item--->was found
+03:30:14.033 INFO  manager.MyListener - Start find element --->By.id: dates
+03:30:14.062 INFO  manager.MyListener - The element with locator --->By.id: dates--->was found
+03:30:14.377 INFO  manager.MyListener - Start find element --->By.cssSelector: .cdk-overlay-container
+03:30:14.410 INFO  manager.MyListener - The element with locator --->By.cssSelector: .cdk-overlay-container--->was found
+03:30:14.492 INFO  manager.MyListener - Start find element --->By.cssSelector: .error .ng-star-inserted
+03:30:14.516 INFO  manager.MyListener - The element with locator --->By.cssSelector: .error .ng-star-inserted--->was found
+03:30:19.583 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/search']
+03:30:19.613 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/search']--->was found

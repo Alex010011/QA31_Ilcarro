@@ -1,0 +1,16 @@
+03:22:37.514 INFO  manager.ApplicationManager - All tests start in 'Chrome' browser
+03:22:38.994 INFO  tests.TestBase - Name of test --->typePeriodInPast
+03:22:39.002 INFO  manager.MyListener - Start find element --->By.id: city
+03:22:39.052 INFO  manager.MyListener - The element with locator --->By.id: city--->was found
+03:22:39.264 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+03:22:39.604 INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item--->was found
+03:22:40.166 INFO  manager.MyListener - Start find element --->By.id: dates
+03:22:40.215 INFO  manager.MyListener - The element with locator --->By.id: dates--->was found
+03:22:40.491 INFO  manager.MyListener - Start find element --->By.cssSelector: .cdk-overlay-container
+03:22:40.518 INFO  manager.MyListener - The element with locator --->By.cssSelector: .cdk-overlay-container--->was found
+03:22:40.588 INFO  manager.MyListener - Start find element --->By.cssSelector: .error .ng-star-inserted
+03:22:40.612 INFO  manager.MyListener - The element with locator --->By.cssSelector: .error .ng-star-inserted--->was found
+03:22:40.649 INFO  manager.MyListener - Start find element --->By.cssSelector: [type='submit']
+03:22:40.674 INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']--->was found
+03:22:45.699 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/search']
+03:22:45.735 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/search']--->was found

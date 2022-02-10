@@ -1,0 +1,3 @@
+1695 [Test worker] INFO  manager.ApplicationManager - All tests start in Chrome browser
+2936 [Test worker] INFO  tests.TestBase - Name of test --->addNewCarSuccess
+18443 [Test worker] INFO  tests.TestBase - Car was added for user/

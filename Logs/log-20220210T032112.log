@@ -1,0 +1,30 @@
+03:21:14.263 INFO  manager.ApplicationManager - All tests start in 'Chrome' browser
+03:21:15.776 INFO  tests.TestBase - Name of test --->searchPeriodCurrentMonth
+03:21:15.780 INFO  manager.MyListener - Start find element --->By.id: city
+03:21:15.816 INFO  manager.MyListener - The element with locator --->By.id: city--->was found
+03:21:16.037 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+03:21:16.376 INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item--->was found
+03:21:16.937 INFO  manager.MyListener - Start find element --->By.id: dates
+03:21:17.022 INFO  manager.MyListener - The element with locator --->By.id: dates--->was found
+03:21:17.189 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 6 ']
+03:21:17.214 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 6 ']--->was found
+03:21:17.276 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 7 ']
+03:21:17.309 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 7 ']--->was found
+03:21:22.381 INFO  manager.MyListener - Start find element --->By.cssSelector: [type='submit']
+03:21:22.420 INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']--->was found
+03:21:23.537 INFO  manager.MyListener - We have a throwable --->element click intercepted: Element <button _ngcontent-inm-c72="" type="submit" disabled="">...</button> is not clickable at point (183, 437). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 12ab43e93ad2720c8aab17d3d67410e7
+03:21:23.539 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-inm-c72="" type="submit" disabled="">...</button> is not clickable at point (183, 437). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 12ab43e93ad2720c8aab17d3d67410e7
+03:21:23.551 INFO  manager.MyListener - This is link of your screen -->src/test/screenshots/screen1283.png
+03:21:29.582 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/search']

@@ -13,7 +13,10 @@ public class AddNewCarTests extends TestBase{
     public void preCondition(){
         // if !logged ---> login()
         if(!app.getUserHelper().isLogoutPresent()){
-            app.getUserHelper().login(new User().witnEmail("tvistermister220@gmail.com").withPassword("Jj12345$"));
+            User user = new User().witnEmail("tvistermister220@gmail.com").withPassword("Jj12345$");
+            app.getUserHelper().login(user);
+
+            logger.info("Car was added for user"+user.toString());
         }
     }
 
@@ -42,6 +45,7 @@ int index = (int)(System.currentTimeMillis()/1000)%3600;
                 .about("Very good car")
                 .build();
 
+        logger.info("Car was added"+ car.toString());
         app.getCarHelper().openCarForm();
         app.getCarHelper().fillCarForm(car);
         app.getCarHelper().attachPhoto("C:/Users/bunal/OneDrive/Pictures/123.jpg");
@@ -56,7 +60,7 @@ int index = (int)(System.currentTimeMillis()/1000)%3600;
         int index = (int)(System.currentTimeMillis()/1000)%3600;
         System.out.println(index);
         Car car = Car.builder()
-                .address("Tel Aviv, Israel")
+                .address("Rehovot, Israel")
                 .make("BMW")
                 .model("M5")
                 .year("2020")
@@ -75,6 +79,7 @@ int index = (int)(System.currentTimeMillis()/1000)%3600;
                 .about("Very good car")
                 .build();
 
+        logger.info("Car was added"+ car.toString());
         app.getCarHelper().openCarForm();
         app.getCarHelper().fillCarForm(car);
         app.getCarHelper().attachPhoto("C:/Users/bunal/OneDrive/Pictures/123.jpg");

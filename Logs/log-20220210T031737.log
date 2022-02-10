@@ -1,0 +1,46 @@
+03:17:39.650 INFO  manager.ApplicationManager - All tests start in 'Chrome' browser
+03:17:41.218 INFO  tests.TestBase - Name of test --->searchPeriodCurrentMonth
+03:17:41.226 INFO  manager.MyListener - Start find element --->By.id: city
+03:17:41.274 INFO  manager.MyListener - The element with locator --->By.id: city--->was found
+03:17:41.494 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+03:17:41.828 INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item--->was found
+03:17:42.404 INFO  manager.MyListener - Start find element --->By.id: dates
+03:17:42.439 INFO  manager.MyListener - The element with locator --->By.id: dates--->was found
+03:17:42.608 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 6 ']
+03:17:42.640 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 6 ']--->was found
+03:17:42.713 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 7 ']
+03:17:42.744 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 7 ']--->was found
+03:17:47.828 INFO  manager.MyListener - Start find element --->By.cssSelector: [type='submit']
+03:17:47.860 INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']--->was found
+03:17:49.015 INFO  manager.MyListener - We have a throwable --->element click intercepted: Element <button _ngcontent-cav-c72="" type="submit" disabled="">...</button> is not clickable at point (183, 437). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c5b37b30709cddbb582884db19d3738
+03:17:49.017 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-cav-c72="" type="submit" disabled="">...</button> is not clickable at point (183, 437). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c5b37b30709cddbb582884db19d3738
+03:17:49.029 INFO  manager.MyListener - This is link of your screen -->src/test/screenshots/screen1069.png
+03:17:55.044 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/search']
+03:17:55.082 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/search']--->was found
+03:17:56.159 INFO  manager.MyListener - We have a throwable --->element click intercepted: Element <a _ngcontent-cav-c25="" class="navigation-link" id="0" href="/search">...</a> is not clickable at point (499, 33). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c5b37b30709cddbb582884db19d3738
+03:17:56.162 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-cav-c25="" class="navigation-link" id="0" href="/search">...</a> is not clickable at point (499, 33). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c5b37b30709cddbb582884db19d3738
+03:17:56.163 INFO  manager.MyListener - This is link of your screen -->src/test/screenshots/screen1076.png

@@ -1,0 +1,64 @@
+17:35:17.261 INFO  manager.ApplicationManager - All tests start in 'Chrome' browser
+17:35:25.042 INFO  tests.TestBase - Name of test --->addNewCarSuccess
+17:35:30.048 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()=' Logout ']
+17:35:35.107 INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()=' Logout ']--->was found
+17:35:35.108 INFO  manager.MyListener - Start find element --->By.xpath: //a[text()=' Log in ']
+17:35:35.135 INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()=' Log in ']--->was found
+17:35:35.195 INFO  manager.MyListener - Start find element --->By.id: email
+17:35:35.208 INFO  manager.MyListener - The element with locator --->By.id: email--->was found
+17:35:35.315 INFO  manager.MyListener - Start find element --->By.id: password
+17:35:35.334 INFO  manager.MyListener - The element with locator --->By.id: password--->was found
+17:35:35.404 INFO  manager.MyListener - Start find element --->By.cssSelector: [type='submit']
+17:35:35.428 INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']--->was found
+17:35:40.475 INFO  manager.MyListener - Start find element --->By.xpath: //div[@class='dialog-container']
+17:35:40.500 INFO  manager.MyListener - The element with locator --->By.xpath: //div[@class='dialog-container']--->was found
+17:35:40.500 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Ok']
+17:35:40.524 INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()='Ok']--->was found
+17:35:40.570 INFO  tests.TestBase - Car was added for userUser{name='null', lastName='null', email='tvistermister220@gmail.com', password='Jj12345$'}
+17:35:40.610 INFO  tests.TestBase - Car was addedCar(address=Tel Aviv, Israel, make=BMW, model=M5, year=2020, engine=2.5, fuel=Petrol, gear=MT, wD=AWD, doors=5, seats=4, clasS=C, fuelConsumption=6.5, carRegNumber=102-33-2140, price=65, distanceIncluded=500, features=type of, about=Very good car)
+17:35:45.615 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/let-car-work']
+17:35:45.649 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/let-car-work']--->was found
+17:35:45.709 INFO  manager.MyListener - Start find element --->By.id: pickUpPlace
+17:35:45.731 INFO  manager.MyListener - The element with locator --->By.id: pickUpPlace--->was found
+17:35:45.830 INFO  manager.MyListener - Start find element --->By.id: pickUpPlace
+17:35:45.851 INFO  manager.MyListener - The element with locator --->By.id: pickUpPlace--->was found
+17:35:46.230 INFO  manager.MyListener - Start find element --->By.id: ake
+17:35:51.296 INFO  manager.MyListener - We have a throwable --->no such element: Unable to locate element: {"method":"css selector","selector":"#ake"}
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ea5c6a5a571f3bca8c75ff6b6bf2e73
+*** Element info: {Using=id, value=ake}
+17:35:51.298 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ake"}
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ea5c6a5a571f3bca8c75ff6b6bf2e73
+*** Element info: {Using=id, value=ake}
+17:35:51.301 INFO  manager.MyListener - This is link of your screen -->src/test/screenshots/screen2151.png
+17:35:51.454 INFO  manager.MyListener - Start find element --->By.xpath: //button[text()='Search cars']
+17:35:56.511 INFO  manager.MyListener - We have a throwable --->no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ea5c6a5a571f3bca8c75ff6b6bf2e73
+*** Element info: {Using=xpath, value=//button[text()='Search cars']}
+17:35:56.513 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ea5c6a5a571f3bca8c75ff6b6bf2e73
+*** Element info: {Using=xpath, value=//button[text()='Search cars']}
+17:35:56.513 INFO  manager.MyListener - This is link of your screen -->src/test/screenshots/screen2156.png

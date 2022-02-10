@@ -1,0 +1,89 @@
+03:05:28.550 INFO  manager.ApplicationManager - All tests start in 'Chrome' browser
+03:05:30.087 INFO  tests.TestBase - Name of test --->searchPeriodAnyData
+03:05:30.093 INFO  manager.MyListener - Start find element --->By.id: city
+03:05:30.126 INFO  manager.MyListener - The element with locator --->By.id: city--->was found
+03:05:30.347 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+03:05:30.677 INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item--->was found
+03:05:31.263 INFO  manager.MyListener - Start find element --->By.id: dates
+03:05:31.293 INFO  manager.MyListener - The element with locator --->By.id: dates--->was found
+03:05:31.441 INFO  manager.MyListener - Start find element --->By.xpath: //*[@aria-label='Next month']
+03:05:31.470 INFO  manager.MyListener - The element with locator --->By.xpath: //*[@aria-label='Next month']--->was found
+03:05:31.548 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 30 ']
+03:05:31.579 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 30 ']--->was found
+03:05:31.691 INFO  manager.MyListener - Start find element --->By.xpath: //*[@aria-label='Next month']
+03:05:31.715 INFO  manager.MyListener - The element with locator --->By.xpath: //*[@aria-label='Next month']--->was found
+03:05:31.779 INFO  manager.MyListener - Start find element --->By.xpath: //*[@aria-label='Next month']
+03:05:31.812 INFO  manager.MyListener - The element with locator --->By.xpath: //*[@aria-label='Next month']--->was found
+03:05:31.896 INFO  manager.MyListener - Start find element --->By.xpath: //*[@aria-label='Next month']
+03:05:31.918 INFO  manager.MyListener - The element with locator --->By.xpath: //*[@aria-label='Next month']--->was found
+03:05:32.011 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 25 ']
+03:05:32.051 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 25 ']--->was found
+03:05:39.168 INFO  manager.MyListener - Start find element --->By.cssSelector: [type='submit']
+03:05:39.204 INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']--->was found
+03:05:39.362 INFO  manager.MyListener - Start find element --->By.cssSelector: .search-results
+03:05:39.403 INFO  manager.MyListener - The element with locator --->By.cssSelector: .search-results--->was found
+03:05:44.427 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/search']
+03:05:44.464 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/search']--->was found
+03:05:44.583 INFO  tests.TestBase - Name of test --->searchPeriodCurrentFromTodayForWeek
+03:05:44.586 INFO  manager.MyListener - Start find element --->By.id: city
+03:05:44.626 INFO  manager.MyListener - The element with locator --->By.id: city--->was found
+03:05:44.966 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+03:05:45.040 INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item--->was found
+03:05:45.101 INFO  manager.MyListener - We have a throwable --->stale element reference: element is not attached to the page document
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 657a6f032d38f4e437292b5748efbc09
+03:05:45.103 INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 657a6f032d38f4e437292b5748efbc09
+03:05:45.114 INFO  manager.MyListener - This is link of your screen -->src/test/screenshots/screen345.png
+03:05:51.196 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/search']
+03:05:51.229 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/search']--->was found
+03:05:51.315 INFO  tests.TestBase - Name of test --->searchPeriodCurrentMonth
+03:05:51.317 INFO  manager.MyListener - Start find element --->By.id: city
+03:05:51.338 INFO  manager.MyListener - The element with locator --->By.id: city--->was found
+03:05:51.569 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+03:05:51.605 INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item--->was found
+03:05:52.193 INFO  manager.MyListener - Start find element --->By.id: dates
+03:05:52.229 INFO  manager.MyListener - The element with locator --->By.id: dates--->was found
+03:05:52.372 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 6 ']
+03:05:52.404 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 6 ']--->was found
+03:05:52.504 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 7 ']
+03:05:52.540 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 7 ']--->was found
+03:05:57.652 INFO  manager.MyListener - Start find element --->By.cssSelector: [type='submit']
+03:05:57.690 INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']--->was found
+03:05:57.843 INFO  manager.MyListener - Start find element --->By.cssSelector: .search-results
+03:05:57.874 INFO  manager.MyListener - The element with locator --->By.cssSelector: .search-results--->was found
+03:06:02.878 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/search']
+03:06:02.908 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/search']--->was found
+03:06:03.013 INFO  tests.TestBase - Name of test --->typePeriodInPast
+03:06:03.015 INFO  manager.MyListener - Start find element --->By.id: city
+03:06:03.049 INFO  manager.MyListener - The element with locator --->By.id: city--->was found
+03:06:03.357 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+03:06:03.387 INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item--->was found
+03:06:08.476 INFO  manager.MyListener - We have a throwable --->element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 657a6f032d38f4e437292b5748efbc09
+03:06:08.477 INFO  manager.MyListener - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 657a6f032d38f4e437292b5748efbc09
+03:06:08.478 INFO  manager.MyListener - This is link of your screen -->src/test/screenshots/screen368.png
+03:06:14.401 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/search']
+03:06:14.439 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/search']--->was found

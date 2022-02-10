@@ -1,0 +1,82 @@
+03:11:59.295 INFO  manager.ApplicationManager - All tests start in 'Chrome' browser
+03:12:00.827 INFO  tests.TestBase - Name of test --->searchPeriodAnyData
+03:12:00.833 INFO  manager.MyListener - Start find element --->By.id: city
+03:12:00.883 INFO  manager.MyListener - The element with locator --->By.id: city--->was found
+03:12:01.134 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+03:12:01.483 INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item--->was found
+03:12:02.078 INFO  manager.MyListener - Start find element --->By.id: dates
+03:12:02.133 INFO  manager.MyListener - The element with locator --->By.id: dates--->was found
+03:12:02.298 INFO  manager.MyListener - Start find element --->By.xpath: //*[@aria-label='Next month']
+03:12:02.329 INFO  manager.MyListener - The element with locator --->By.xpath: //*[@aria-label='Next month']--->was found
+03:12:02.428 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 30 ']
+03:12:02.471 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 30 ']--->was found
+03:12:02.552 INFO  manager.MyListener - Start find element --->By.xpath: //*[@aria-label='Next month']
+03:12:02.583 INFO  manager.MyListener - The element with locator --->By.xpath: //*[@aria-label='Next month']--->was found
+03:12:02.691 INFO  manager.MyListener - Start find element --->By.xpath: //*[@aria-label='Next month']
+03:12:02.726 INFO  manager.MyListener - The element with locator --->By.xpath: //*[@aria-label='Next month']--->was found
+03:12:02.817 INFO  manager.MyListener - Start find element --->By.xpath: //*[@aria-label='Next month']
+03:12:02.849 INFO  manager.MyListener - The element with locator --->By.xpath: //*[@aria-label='Next month']--->was found
+03:12:02.934 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 25 ']
+03:12:02.963 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 25 ']--->was found
+03:12:10.084 INFO  manager.MyListener - Start find element --->By.cssSelector: [type='submit']
+03:12:10.120 INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']--->was found
+03:12:10.259 INFO  manager.MyListener - Start find element --->By.cssSelector: .search-results
+03:12:10.292 INFO  manager.MyListener - The element with locator --->By.cssSelector: .search-results--->was found
+03:12:15.320 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/search']
+03:12:15.357 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/search']--->was found
+03:12:15.484 INFO  tests.TestBase - Name of test --->searchPeriodCurrentFromTodayForWeek
+03:12:15.486 INFO  manager.MyListener - Start find element --->By.id: city
+03:12:15.524 INFO  manager.MyListener - The element with locator --->By.id: city--->was found
+03:12:15.792 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+03:12:15.809 INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item--->was found
+03:12:16.390 INFO  manager.MyListener - Start find element --->By.id: dates
+03:12:16.420 INFO  manager.MyListener - The element with locator --->By.id: dates--->was found
+03:12:16.575 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 10 ']
+03:12:16.611 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 10 ']--->was found
+03:12:17.720 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 17 ']
+03:12:17.759 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 17 ']--->was found
+03:12:22.864 INFO  manager.MyListener - Start find element --->By.cssSelector: [type='submit']
+03:12:22.894 INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']--->was found
+03:12:23.046 INFO  manager.MyListener - Start find element --->By.cssSelector: .search-results
+03:12:23.069 INFO  manager.MyListener - The element with locator --->By.cssSelector: .search-results--->was found
+03:12:28.077 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/search']
+03:12:28.114 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/search']--->was found
+03:12:28.223 INFO  tests.TestBase - Name of test --->searchPeriodCurrentMonth
+03:12:28.224 INFO  manager.MyListener - Start find element --->By.id: city
+03:12:28.259 INFO  manager.MyListener - The element with locator --->By.id: city--->was found
+03:12:28.547 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+03:12:28.584 INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item--->was found
+03:12:29.166 INFO  manager.MyListener - Start find element --->By.id: dates
+03:12:29.204 INFO  manager.MyListener - The element with locator --->By.id: dates--->was found
+03:12:29.335 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 6 ']
+03:12:29.375 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 6 ']--->was found
+03:12:29.477 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 7 ']
+03:12:29.514 INFO  manager.MyListener - The element with locator --->By.xpath: //div[text()=' 7 ']--->was found
+03:12:34.612 INFO  manager.MyListener - Start find element --->By.cssSelector: [type='submit']
+03:12:34.649 INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']--->was found
+03:12:34.792 INFO  manager.MyListener - Start find element --->By.cssSelector: .search-results
+03:12:34.817 INFO  manager.MyListener - The element with locator --->By.cssSelector: .search-results--->was found
+03:12:39.833 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/search']
+03:12:39.864 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/search']--->was found
+03:12:39.960 INFO  tests.TestBase - Name of test --->typePeriodInPast
+03:12:39.962 INFO  manager.MyListener - Start find element --->By.id: city
+03:12:39.986 INFO  manager.MyListener - The element with locator --->By.id: city--->was found
+03:12:40.278 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+03:12:40.313 INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item--->was found
+03:12:45.435 INFO  manager.MyListener - We have a throwable --->element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b300db93648fa329f17d5ac16d36178
+03:12:45.437 INFO  manager.MyListener - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KM2BH8Q8', ip: '10.0.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bunal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b300db93648fa329f17d5ac16d36178
+03:12:45.439 INFO  manager.MyListener - This is link of your screen -->src/test/screenshots/screen765.png
+03:12:51.374 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/search']
+03:12:51.404 INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/search']--->was found
